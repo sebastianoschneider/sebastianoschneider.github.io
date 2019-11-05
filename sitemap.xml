@@ -28,6 +28,11 @@
   </url>
   
   <url>
+    <loc>/post2/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication_types/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url>
@@ -39,6 +44,11 @@
   
   <url>
     <loc>/authors/sebastian-o.-schneider/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post2/s2/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -56,6 +66,10 @@
   
   <url>
     <loc>/talk/</loc>
+  </url>
+  
+  <url>
+    <loc>/httpwww.google.de</loc>
   </url>
   
   <url>

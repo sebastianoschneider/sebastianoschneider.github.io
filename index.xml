@@ -20,5 +20,21 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Software 02</title>
+      <link>/post2/s2/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/post2/s2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software 01</title>
+      <link>/httpwww.google.de</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/httpwww.google.de</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

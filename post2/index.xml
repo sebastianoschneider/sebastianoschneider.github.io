@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sebastian O. Schneider | MPI Guy</title>
-    <link>/authors/sebastian-o.-schneider/</link>
-      <atom:link href="/authors/sebastian-o.-schneider/index.xml" rel="self" type="application/rss+xml" />
-    <description>Sebastian O. Schneider</description>
+    <title>Posts | MPI Guy</title>
+    <link>/post2/</link>
+      <atom:link href="/post2/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
-      <title>Sebastian O. Schneider</title>
-      <link>/authors/sebastian-o.-schneider/</link>
+      <title>Posts</title>
+      <link>/post2/</link>
     </image>
-    
-    <item>
-      <title>A new approach to treatment assignment for one and multiple treatment groups</title>
-      <link>/publication/schneider-2017/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/schneider-2017/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Software 02</title>
