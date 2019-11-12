@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | MPI Guy</title>
+    <link>/xsoftwaresnippets/</link>
+      <atom:link href="/xsoftwaresnippets/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Posts</title>
+      <link>/xsoftwaresnippets/</link>
+    </image>
+    
+    <item>
+      <title>Software 01</title>
+      <link>/httpwww.google.de</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/httpwww.google.de</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

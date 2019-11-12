@@ -28,11 +28,6 @@
   </url>
   
   <url>
-    <loc>/post2/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication_types/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url>
@@ -48,8 +43,23 @@
   </url>
   
   <url>
-    <loc>/post2/s2/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <loc>/publication_types/0/</loc>
+    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/xsoftware/</loc>
+    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/xsoftware/s1/</loc>
+    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -65,15 +75,15 @@
   </url>
   
   <url>
+    <loc>/xsoftwaresnippets/</loc>
+  </url>
+  
+  <url>
     <loc>/talk/</loc>
   </url>
   
   <url>
     <loc>/httpwww.google.de</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
   </url>
   
 </urlset>
