@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>4 | MPI Guy</title>
+    <title>4 | Sebastian O. Schneider</title>
     <link>/publication_types/4/</link>
       <atom:link href="/publication_types/4/index.xml" rel="self" type="application/rss+xml" />
     <description>4</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Nov 2017 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>4</title>
@@ -13,11 +13,14 @@
     </image>
     
     <item>
-      <title>A new approach to treatment assignment for one and multiple treatment groups</title>
-      <link>/publication/schneider-2017/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/schneider-2017/</guid>
-      <description></description>
+      <title>Stata ado-package for Min MSE Treatment Assignment</title>
+      <link>/xsoftware/stata-ado-package/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>/xsoftware/stata-ado-package/</guid>
+      <description>&lt;p&gt;This Stata ado-package implements treatment assignment as proposed by &lt;a href=&#34;/publication/schneider-schlather-2018/&#34; target=&#34;_blank&#34;&gt;Schneider and Schlather (2017)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Fill in a quick survey and download the ado-package &lt;a href=&#34;http://minmse.sebastianschneider.eu&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>
