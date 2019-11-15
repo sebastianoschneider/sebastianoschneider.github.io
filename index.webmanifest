@@ -1,9 +1,9 @@
 {
-  "name": "MPI Guy",
-  "short_name": "MPI Guy",
+  "name": "Sebastian O. Schneider",
+  "short_name": "Sebastian O. Schneider",
   "lang": "en-us",
-  "theme_color": "#2962ff",
-  "background_color": "#2962ff",
+  "theme_color": "#3f51b5",
+  "background_color": "#3f51b5",
   "icons": [{
     "src": "../img/icon-192.png",
     "sizes": "192x192",

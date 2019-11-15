@@ -1,30 +1,62 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>MPI Guy</title>
+    <title>Sebastian O. Schneider</title>
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <description>MPI Guy</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <description>Sebastian O. Schneider</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 15 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
-      <title>MPI Guy</title>
+      <title>Sebastian O. Schneider</title>
       <link>/</link>
     </image>
     
     <item>
-      <title>A new approach to treatment assignment for one and multiple treatment groups</title>
-      <link>/publication/schneider-2017/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/schneider-2017/</guid>
+      <title> (Higher Order) Risk Preferences: Experimental Measures, Determinants and Related Field Behavior</title>
+      <link>/publication/schneider-sutter-2019/</link>
+      <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/schneider-sutter-2019/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Software 01</title>
-      <link>/xsoftware/s1/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>/xsoftware/s1/</guid>
+      <title>Self-Selection and Treatment Assignment in Field Experiments</title>
+      <link>/publication/riener-schneider-wagner-2019/</link>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/riener-schneider-wagner-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Income Risk, Precautionary Saving, and Loss Aversion – An Empirical Test</title>
+      <link>/publication/ibanez-schneider-2019/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/ibanez-schneider-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Measuring Utility – An Application to Higher Order Risk and Saving in Bogota</title>
+      <link>/publication/schneider-ibanez-riener-2019/</link>
+      <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/schneider-ibanez-riener-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A New Approach to Treatment Assignment for One and Multiple Treatment Groups</title>
+      <link>/publication/schneider-schlather-2018/</link>
+      <pubDate>Tue, 27 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/schneider-schlather-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stata ado-package for Min MSE Treatment Assignment</title>
+      <link>/xsoftware/stata-ado-package/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>/xsoftware/stata-ado-package/</guid>
       <description></description>
     </item>
     

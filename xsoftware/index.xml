@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | MPI Guy</title>
+    <title>Software | Sebastian O. Schneider</title>
     <link>/xsoftware/</link>
       <atom:link href="/xsoftware/index.xml" rel="self" type="application/rss+xml" />
-    <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Sep 2015 00:00:00 +0000</lastBuildDate>
+    <description>Software</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Nov 2017 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/xsoftware/featured.png</url>
-      <title>Posts</title>
+      <title>Software</title>
       <link>/xsoftware/</link>
     </image>
     
     <item>
-      <title>Software 01</title>
-      <link>/xsoftware/s1/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>/xsoftware/s1/</guid>
+      <title>Stata ado-package for Min MSE Treatment Assignment</title>
+      <link>/xsoftware/stata-ado-package/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>/xsoftware/stata-ado-package/</guid>
       <description></description>
     </item>
     

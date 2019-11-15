@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marcela Ibanez | Sebastian O. Schneider</title>
+    <link>/authors/marcela-ibanez/</link>
+      <atom:link href="/authors/marcela-ibanez/index.xml" rel="self" type="application/rss+xml" />
+    <description>Marcela Ibanez</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 21 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Marcela Ibanez</title>
+      <link>/authors/marcela-ibanez/</link>
+    </image>
+    
+    <item>
+      <title>Income Risk, Precautionary Saving, and Loss Aversion – An Empirical Test</title>
+      <link>/publication/ibanez-schneider-2019/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/ibanez-schneider-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Measuring Utility – An Application to Higher Order Risk and Saving in Bogota</title>
+      <link>/publication/schneider-ibanez-riener-2019/</link>
+      <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/schneider-ibanez-riener-2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

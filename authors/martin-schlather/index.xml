@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Martin Schlather | MPI Guy</title>
+    <title>Martin Schlather | Sebastian O. Schneider</title>
     <link>/authors/martin-schlather/</link>
       <atom:link href="/authors/martin-schlather/index.xml" rel="self" type="application/rss+xml" />
     <description>Martin Schlather</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 27 Feb 2018 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Martin Schlather</title>
@@ -13,10 +13,10 @@
     </image>
     
     <item>
-      <title>A new approach to treatment assignment for one and multiple treatment groups</title>
-      <link>/publication/schneider-2017/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/schneider-2017/</guid>
+      <title>A New Approach to Treatment Assignment for One and Multiple Treatment Groups</title>
+      <link>/publication/schneider-schlather-2018/</link>
+      <pubDate>Tue, 27 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/schneider-schlather-2018/</guid>
       <description></description>
     </item>
     

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors | MPI Guy</title>
+    <title>Authors | Sebastian O. Schneider</title>
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 15 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
@@ -13,18 +13,50 @@
     </image>
     
     <item>
-      <title>Martin Schlather</title>
-      <link>/authors/martin-schlather/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/authors/martin-schlather/</guid>
+      <title>Matthias Sutter</title>
+      <link>/authors/matthias-sutter/</link>
+      <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/matthias-sutter/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sebastian O. Schneider</title>
       <link>/authors/sebastian-o.-schneider/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
       <guid>/authors/sebastian-o.-schneider/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gerhard Riener</title>
+      <link>/authors/gerhard-riener/</link>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/gerhard-riener/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Valentin Wagner</title>
+      <link>/authors/valentin-wagner/</link>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/valentin-wagner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marcela Ibanez</title>
+      <link>/authors/marcela-ibanez/</link>
+      <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/marcela-ibanez/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Martin Schlather</title>
+      <link>/authors/martin-schlather/</link>
+      <pubDate>Tue, 27 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>/authors/martin-schlather/</guid>
       <description></description>
     </item>
     
@@ -33,9 +65,10 @@
       <link>/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/authors/admin/</guid>
-      <description>&lt;p&gt;Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.&lt;/p&gt;
+      <description>&lt;p&gt;I am a senior research fellow at the &lt;a href=&#34;http://coll.mpg.de&#34; target=&#34;_blank&#34;&gt;Max Planck Institute for Research on Collective Goods&lt;/a&gt;.
+My research interests are behavioral and experimental economics as well as development economics, with a focus on field or lab-in-the-field experiments.&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.&lt;/p&gt;
+&lt;p&gt;Most of my work has considered decision making, in particular decision under risk and uncertainty.&lt;/p&gt;
 </description>
     </item>
     

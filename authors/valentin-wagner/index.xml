@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Valentin Wagner | Sebastian O. Schneider</title>
+    <link>/authors/valentin-wagner/</link>
+      <atom:link href="/authors/valentin-wagner/index.xml" rel="self" type="application/rss+xml" />
+    <description>Valentin Wagner</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 14 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Valentin Wagner</title>
+      <link>/authors/valentin-wagner/</link>
+    </image>
+    
+    <item>
+      <title>Self-Selection and Treatment Assignment in Field Experiments</title>
+      <link>/publication/riener-schneider-wagner-2019/</link>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/riener-schneider-wagner-2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
