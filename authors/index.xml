@@ -5,7 +5,7 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 15 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 26 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
@@ -13,18 +13,18 @@
     </image>
     
     <item>
-      <title>Matthias Sutter</title>
-      <link>/authors/matthias-sutter/</link>
-      <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/matthias-sutter/</guid>
+      <title>Sebastian O. Schneider</title>
+      <link>/authors/sebastian-o.-schneider/</link>
+      <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/sebastian-o.-schneider/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Sebastian O. Schneider</title>
-      <link>/authors/sebastian-o.-schneider/</link>
+      <title>Matthias Sutter</title>
+      <link>/authors/matthias-sutter/</link>
       <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/sebastian-o.-schneider/</guid>
+      <guid>/authors/matthias-sutter/</guid>
       <description></description>
     </item>
     

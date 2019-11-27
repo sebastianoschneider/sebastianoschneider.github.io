@@ -5,7 +5,7 @@
     <link>/publication_types/4/</link>
       <atom:link href="/publication_types/4/index.xml" rel="self" type="application/rss+xml" />
     <description>4</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 26 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>4</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Software for Min MSE Treatment Assignment</title>
       <link>/xsoftware/stata-ado-package/</link>
-      <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
       <guid>/xsoftware/stata-ado-package/</guid>
       <description>&lt;p&gt;This Stata ado-package implements treatment assignment as proposed by &lt;a href=&#34;/publication/schneider-schlather-2018/&#34; target=&#34;_blank&#34;&gt;Schneider and Schlather (2017)&lt;/a&gt;.&lt;/p&gt;
 
