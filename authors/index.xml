@@ -5,7 +5,7 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 26 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
@@ -13,9 +13,17 @@
     </image>
     
     <item>
+      <title>Martin Schlather</title>
+      <link>/authors/martin-schlather/</link>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/martin-schlather/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Sebastian O. Schneider</title>
       <link>/authors/sebastian-o.-schneider/</link>
-      <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
       <guid>/authors/sebastian-o.-schneider/</guid>
       <description></description>
     </item>
@@ -49,14 +57,6 @@
       <link>/authors/marcela-ibanez/</link>
       <pubDate>Wed, 21 Aug 2019 00:00:00 +0000</pubDate>
       <guid>/authors/marcela-ibanez/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Martin Schlather</title>
-      <link>/authors/martin-schlather/</link>
-      <pubDate>Tue, 27 Feb 2018 00:00:00 +0000</pubDate>
-      <guid>/authors/martin-schlather/</guid>
       <description></description>
     </item>
     
