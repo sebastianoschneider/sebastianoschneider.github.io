@@ -5,7 +5,7 @@
     <link>/authors/sebastian-o.-schneider/</link>
       <atom:link href="/authors/sebastian-o.-schneider/index.xml" rel="self" type="application/rss+xml" />
     <description>Sebastian O. Schneider</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 02 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Sebastian O. Schneider</title>
@@ -13,24 +13,24 @@
     </image>
     
     <item>
-      <title>A New Approach to Treatment Assignment for One and Multiple Treatment Groups</title>
-      <link>/publication/schneider-schlather-2018/</link>
-      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/schneider-schlather-2018/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Software for Min MSE Treatment Assignment</title>
       <link>/xsoftware/stata-ado-package/</link>
-      <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 02 Dec 2019 00:00:00 +0000</pubDate>
       <guid>/xsoftware/stata-ado-package/</guid>
       <description>&lt;p&gt;This Stata ado-package implements treatment assignment as proposed by &lt;a href=&#34;/publication/schneider-schlather-2018/&#34; target=&#34;_blank&#34;&gt;Schneider and Schlather (2017)&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Fill in a quick survey and download the ado-package &lt;a href=&#34;http://minmse.sebastianschneider.eu&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Alternatively, get the R package &amp;lsquo;minMSE&amp;rsquo; via CRAN in a few days (currently under submission).&lt;/p&gt;
+&lt;p&gt;Alternatively, get the R package &amp;lsquo;minMSE&amp;rsquo; via CRAN; &lt;a href=&#34;https://cran.r-project.org/package=minMSE&#34; target=&#34;_blank&#34;&gt;minMSE at CRAN&lt;/a&gt;.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>A New Approach to Treatment Assignment for One and Multiple Treatment Groups</title>
+      <link>/publication/schneider-schlather-2018/</link>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/schneider-schlather-2018/</guid>
+      <description></description>
     </item>
     
     <item>
