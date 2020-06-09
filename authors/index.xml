@@ -5,7 +5,7 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 31 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 07 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
@@ -13,9 +13,25 @@
     </image>
     
     <item>
+      <title>Heike Harmgart</title>
+      <link>/authors/heike-harmgart/</link>
+      <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/heike-harmgart/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kai Barron</title>
+      <link>/authors/kai-barron/</link>
+      <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/kai-barron/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Matthias Sutter</title>
       <link>/authors/matthias-sutter/</link>
-      <pubDate>Fri, 31 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
       <guid>/authors/matthias-sutter/</guid>
       <description></description>
     </item>
@@ -23,8 +39,16 @@
     <item>
       <title>Sebastian O. Schneider</title>
       <link>/authors/sebastian-o.-schneider/</link>
-      <pubDate>Fri, 31 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
       <guid>/authors/sebastian-o.-schneider/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Steffen Huck</title>
+      <link>/authors/steffen-huck/</link>
+      <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/steffen-huck/</guid>
       <description></description>
     </item>
     

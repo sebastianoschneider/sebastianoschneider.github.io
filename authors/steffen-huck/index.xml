@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Matthias Sutter | Sebastian O. Schneider</title>
-    <link>/authors/matthias-sutter/</link>
-      <atom:link href="/authors/matthias-sutter/index.xml" rel="self" type="application/rss+xml" />
-    <description>Matthias Sutter</description>
+    <title>Steffen Huck | Sebastian O. Schneider</title>
+    <link>/authors/steffen-huck/</link>
+      <atom:link href="/authors/steffen-huck/index.xml" rel="self" type="application/rss+xml" />
+    <description>Steffen Huck</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 07 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
-      <title>Matthias Sutter</title>
-      <link>/authors/matthias-sutter/</link>
+      <title>Steffen Huck</title>
+      <link>/authors/steffen-huck/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>/publication/barron-et-al-2020/</link>
       <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
       <guid>/publication/barron-et-al-2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title> (Higher Order) Risk Preferences: Experimental Measures, Determinants and Related Field Behavior</title>
-      <link>/publication/schneider-sutter-2019/</link>
-      <pubDate>Fri, 31 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/schneider-sutter-2019/</guid>
       <description></description>
     </item>
     
