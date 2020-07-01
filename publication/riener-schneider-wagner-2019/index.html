@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!DOCTYPE html><html lang="en-us" >
 
 <head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.5.0">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
 
   
 
@@ -21,14 +20,14 @@
   
   
 
-  <meta name="author" content="Sebastian O. Schneider">
+  
 
   
   
   
     
   
-  <meta name="description" content="Self-selection and unbalanced treatment assignment are two major concerns in experimental evaluations as they compromise the validity of a study at the external and the internal margin. In this paper we present evidence on the selection of partner institutions into participation and balanced treatment assignment in field experiments. We answer two questions: (1) do stakeholders that choose to participate in a field experiment differ from the population of interest, and (2) does pre-treatment balancedness on observable characteristics translate to lower bias and increased power in a real-world setting, and which method should best be used if that is the case? To this end, we conducted a recruitment experiment, inviting stakeholders to participate in field experiments with their institutions and varying the salience of the research topic and the stakes of participation. We combine this experimental data with a rich set of administrative data on institution and municipality characteristics to identify a possible self-selection bias. Moreover, we compare pure randomization, matching, and re-randomization to a new treatment assignment method -- the minimum mean squared error treatment assignment (min MSE) proposed by Schneider and Schlather (2017). We find no evidence for a self-selection bias on observable characteristics and estabhlish that balancedness as achieved by the minMSE method reduces bias of treatment effect estimation by 33% compared to pure randomization. The minMSE method performs best in increasing pre-treatment balancedness of observable characteristics compared to pure randomization, matching, and simple re-randomization.">
+  <meta name="description" content="In this paper, we systematically analyze the empirical importance of standard conditions for the validity and generalizability of field experiments: the internal and external overlap and unconfoundedness conditions. We experimentally varied the degree of overlap in disjoint sub-samples from a recruitment experiment with more than 3,000 public schools, mimicking small scale field experiments. This was achieved by using differ- ent techniques for treatment assignment. We applied standard methods, such as pure randomization, and the novel minMSE treatment assignment method. This new technique should achieve improved overlap by balancing covariate dependencies and variances instead of focusing on individual mean values. We assess the relevance of the overlap condition by linking the estimation precision in the disjoint sub-samples to measures of overlap and balance in general. Unconfoundedness is addressed by using a rich set of administrative data on institution and municipality characteristics to study potential self-selection. We find no evidence for the violation of unconfoundedness and establish that improved overlap, and balancedness, as achieved by the minMSE method, reduce the bias of the treatment effect estimation by more than 35% compared to pure randomization, illustrating the importance of, and suggesting a solution to, addressing overlap also in (field) experiments.">
 
   
   <link rel="alternate" hreflang="en-us" href="/publication/riener-schneider-wagner-2019/">
@@ -44,11 +43,14 @@
 
   
   
+
+  
+  
   
   
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
     
@@ -60,8 +62,8 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
         
       
     
@@ -70,6 +72,118 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
     
 
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
     
 
   
@@ -95,13 +209,19 @@
 
 
   
+  
+
+  
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/img/icon-32.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="/publication/riener-schneider-wagner-2019/">
 
+  
+  
+  
   
   
   
@@ -117,22 +237,20 @@
   
   <meta property="og:site_name" content="Sebastian O. Schneider">
   <meta property="og:url" content="/publication/riener-schneider-wagner-2019/">
-  <meta property="og:title" content="Self-Selection and Treatment Assignment in Field Experiments | Sebastian O. Schneider">
-  <meta property="og:description" content="Self-selection and unbalanced treatment assignment are two major concerns in experimental evaluations as they compromise the validity of a study at the external and the internal margin. In this paper we present evidence on the selection of partner institutions into participation and balanced treatment assignment in field experiments. We answer two questions: (1) do stakeholders that choose to participate in a field experiment differ from the population of interest, and (2) does pre-treatment balancedness on observable characteristics translate to lower bias and increased power in a real-world setting, and which method should best be used if that is the case? To this end, we conducted a recruitment experiment, inviting stakeholders to participate in field experiments with their institutions and varying the salience of the research topic and the stakes of participation. We combine this experimental data with a rich set of administrative data on institution and municipality characteristics to identify a possible self-selection bias. Moreover, we compare pure randomization, matching, and re-randomization to a new treatment assignment method -- the minimum mean squared error treatment assignment (min MSE) proposed by Schneider and Schlather (2017). We find no evidence for a self-selection bias on observable characteristics and estabhlish that balancedness as achieved by the minMSE method reduces bias of treatment effect estimation by 33% compared to pure randomization. The minMSE method performs best in increasing pre-treatment balancedness of observable characteristics compared to pure randomization, matching, and simple re-randomization."><meta property="og:image" content="/img/icon-192.png">
-  <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="en-us">
+  <meta property="og:title" content="Addressing Validity and Generalizability Concerns in Field Experiments | Sebastian O. Schneider">
+  <meta property="og:description" content="In this paper, we systematically analyze the empirical importance of standard conditions for the validity and generalizability of field experiments: the internal and external overlap and unconfoundedness conditions. We experimentally varied the degree of overlap in disjoint sub-samples from a recruitment experiment with more than 3,000 public schools, mimicking small scale field experiments. This was achieved by using differ- ent techniques for treatment assignment. We applied standard methods, such as pure randomization, and the novel minMSE treatment assignment method. This new technique should achieve improved overlap by balancing covariate dependencies and variances instead of focusing on individual mean values. We assess the relevance of the overlap condition by linking the estimation precision in the disjoint sub-samples to measures of overlap and balance in general. Unconfoundedness is addressed by using a rich set of administrative data on institution and municipality characteristics to study potential self-selection. We find no evidence for the violation of unconfoundedness and establish that improved overlap, and balancedness, as achieved by the minMSE method, reduce the bias of the treatment effect estimation by more than 35% compared to pure randomization, illustrating the importance of, and suggesting a solution to, addressing overlap also in (field) experiments."><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2019-10-29T17:55:42&#43;00:00">
+      <meta property="article:published_time" content="2020-06-25T17:55:42&#43;00:00">
     
-    <meta property="article:modified_time" content="2019-11-14T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2020-06-25T00:00:00&#43;00:00">
   
 
   
 
 
     
-
-
 
 
 
@@ -150,10 +268,10 @@
     "@type": "WebPage",
     "@id": "/publication/riener-schneider-wagner-2019/"
   },
-  "headline": "Self-Selection and Treatment Assignment in Field Experiments",
+  "headline": "Addressing Validity and Generalizability Concerns in Field Experiments",
   
-  "datePublished": "2019-10-29T17:55:42Z",
-  "dateModified": "2019-11-14T00:00:00Z",
+  "datePublished": "2020-06-25T17:55:42Z",
+  "dateModified": "2020-06-25T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -165,10 +283,10 @@
     "name": "Sebastian O. Schneider",
     "logo": {
       "@type": "ImageObject",
-      "url": "/img/icon-512.png"
+      "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "Self-selection and unbalanced treatment assignment are two major concerns in experimental evaluations as they compromise the validity of a study at the external and the internal margin. In this paper we present evidence on the selection of partner institutions into participation and balanced treatment assignment in field experiments. We answer two questions: (1) do stakeholders that choose to participate in a field experiment differ from the population of interest, and (2) does pre-treatment balancedness on observable characteristics translate to lower bias and increased power in a real-world setting, and which method should best be used if that is the case? To this end, we conducted a recruitment experiment, inviting stakeholders to participate in field experiments with their institutions and varying the salience of the research topic and the stakes of participation. We combine this experimental data with a rich set of administrative data on institution and municipality characteristics to identify a possible self-selection bias. Moreover, we compare pure randomization, matching, and re-randomization to a new treatment assignment method -- the minimum mean squared error treatment assignment (min MSE) proposed by Schneider and Schlather (2017). We find no evidence for a self-selection bias on observable characteristics and estabhlish that balancedness as achieved by the minMSE method reduces bias of treatment effect estimation by 33% compared to pure randomization. The minMSE method performs best in increasing pre-treatment balancedness of observable characteristics compared to pure randomization, matching, and simple re-randomization."
+  "description": "In this paper, we systematically analyze the empirical importance of standard conditions for the validity and generalizability of field experiments: the internal and external overlap and unconfoundedness conditions. We experimentally varied the degree of overlap in disjoint sub-samples from a recruitment experiment with more than 3,000 public schools, mimicking small scale field experiments. This was achieved by using differ- ent techniques for treatment assignment. We applied standard methods, such as pure randomization, and the novel minMSE treatment assignment method. This new technique should achieve improved overlap by balancing covariate dependencies and variances instead of focusing on individual mean values. We assess the relevance of the overlap condition by linking the estimation precision in the disjoint sub-samples to measures of overlap and balance in general. Unconfoundedness is addressed by using a rich set of administrative data on institution and municipality characteristics to study potential self-selection. We find no evidence for the violation of unconfoundedness and establish that improved overlap, and balancedness, as achieved by the minMSE method, reduce the bias of the treatment effect estimation by more than 35% compared to pure randomization, illustrating the importance of, and suggesting a solution to, addressing overlap also in (field) experiments."
 }
 </script>
 
@@ -186,10 +304,9 @@
 
 
 
-  <title>Self-Selection and Treatment Assignment in Field Experiments | Sebastian O. Schneider</title>
+  <title>Addressing Validity and Generalizability Concerns in Field Experiments | Sebastian O. Schneider</title>
 
 </head>
-
 <body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
 
   <aside class="search-results" id="search">
@@ -225,24 +342,43 @@
 
 
   
-<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
     
+    <div class="d-none d-lg-inline-flex">
       <a class="navbar-brand" href="/">Sebastian O. Schneider</a>
-      
-      <button type="button" class="navbar-toggler" data-toggle="collapse"
-              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span><i class="fas fa-bars"></i></span>
-      </button>
-      
+    </div>
+    
 
     
-    <div class="collapse navbar-collapse" id="navbar">
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Sebastian O. Schneider</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
 
       
-      
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav d-md-inline-flex">
         
 
         
@@ -326,35 +462,6 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#software"><span>Software</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
           <a class="nav-link " href="/#contact"><span>Contact</span></a>
         </li>
 
@@ -383,30 +490,62 @@
         
         
 
-      
-      </ul>
-      <ul class="navbar-nav ml-auto">
-      
-
         
 
         
+        
+        
+
+        
+        
+        
+        
+        
+        
+
         <li class="nav-item">
-          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+          <a class="nav-link  active" href="/"><span></span></a>
         </li>
-        
 
         
-
-        
-        <li class="nav-item">
-          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
-        </li>
         
 
+      
+
+        
       </ul>
-
     </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
   </div>
 </nav>
 
@@ -432,7 +571,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Self-Selection and Treatment Assignment in Field Experiments</h1>
+  <h1>Addressing Validity and Generalizability Concerns in Field Experiments</h1>
 
   
 
@@ -449,11 +588,8 @@
   <div>
     
 
-
-
   
-  <span><a href="/authors/gerhard-riener/">Gerhard Riener</a></span>, <span><a href="/authors/sebastian-o.-schneider/">Sebastian O. Schneider</a></span>, <span><a href="/authors/valentin-wagner/">Valentin Wagner</a></span>
-
+  <span >Gerhard Riener</span>, <span >Sebastian O. Schneider</span>, <span >Valentin Wagner</span>
   </div>
   
   
@@ -464,7 +600,7 @@
     
       
     
-    November 2019
+    June 2020
   </span>
   
 
@@ -544,7 +680,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Self-selection and unbalanced treatment assignment are two major concerns in experimental evaluations as they compromise the validity of a study at the external and the internal margin. In this paper we present evidence on the selection of partner institutions into participation and balanced treatment assignment in field experiments. We answer two questions: (1) do stakeholders that choose to participate in a field experiment differ from the population of interest, and (2) does pre-treatment balancedness on observable characteristics translate to lower bias and increased power in a real-world setting, and which method should best be used if that is the case? To this end, we conducted a recruitment experiment, inviting stakeholders to participate in field experiments with their institutions and varying the salience of the research topic and the stakes of participation. We combine this experimental data with a rich set of administrative data on institution and municipality characteristics to identify a possible self-selection bias. Moreover, we compare pure randomization, matching, and re-randomization to a new treatment assignment method &ndash; the minimum mean squared error treatment assignment (min MSE) proposed by Schneider and Schlather (2017). We find no evidence for a self-selection bias on observable characteristics and estabhlish that balancedness as achieved by the minMSE method reduces bias of treatment effect estimation by 33% compared to pure randomization. The minMSE method performs best in increasing pre-treatment balancedness of observable characteristics compared to pure randomization, matching, and simple re-randomization.</p>
+    <p class="pub-abstract">In this paper, we systematically analyze the empirical importance of standard conditions for the validity and generalizability of field experiments: the internal and external overlap and unconfoundedness conditions. We experimentally varied the degree of overlap in disjoint sub-samples from a recruitment experiment with more than 3,000 public schools, mimicking small scale field experiments. This was achieved by using differ- ent techniques for treatment assignment. We applied standard methods, such as pure randomization, and the novel minMSE treatment assignment method. This new technique should achieve improved overlap by balancing covariate dependencies and variances instead of focusing on individual mean values. We assess the relevance of the overlap condition by linking the estimation precision in the disjoint sub-samples to measures of overlap and balance in general. Unconfoundedness is addressed by using a rich set of administrative data on institution and municipality characteristics to study potential self-selection. We find no evidence for the violation of unconfoundedness and establish that improved overlap, and balancedness, as achieved by the minMSE method, reduce the bias of the treatment effect estimation by more than 35% compared to pure randomization, illustrating the importance of, and suggesting a solution to, addressing overlap also in (field) experiments.</p>
     
 
     
@@ -569,12 +705,25 @@
     
 
     
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">Discussion Papers of the Max Planck Institute for Research on Collective Goods, 2020/16</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
 
     <div class="space-below"></div>
 
     <div class="article-style"></div>
 
     
+
 
 
 
@@ -593,7 +742,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/publication/riener-schneider-wagner-2019/&amp;text=Self-Selection%20and%20Treatment%20Assignment%20in%20Field%20Experiments" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/publication/riener-schneider-wagner-2019/&amp;text=Addressing%20Validity%20and%20Generalizability%20Concerns%20in%20Field%20Experiments" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -606,7 +755,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/publication/riener-schneider-wagner-2019/&amp;t=Self-Selection%20and%20Treatment%20Assignment%20in%20Field%20Experiments" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/publication/riener-schneider-wagner-2019/&amp;t=Addressing%20Validity%20and%20Generalizability%20Concerns%20in%20Field%20Experiments" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook-f"></i>
         </a>
       </li>
@@ -619,7 +768,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Self-Selection%20and%20Treatment%20Assignment%20in%20Field%20Experiments&amp;body=/publication/riener-schneider-wagner-2019/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Addressing%20Validity%20and%20Generalizability%20Concerns%20in%20Field%20Experiments&amp;body=/publication/riener-schneider-wagner-2019/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -632,7 +781,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/publication/riener-schneider-wagner-2019/&amp;title=Self-Selection%20and%20Treatment%20Assignment%20in%20Field%20Experiments" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/riener-schneider-wagner-2019/&amp;title=Addressing%20Validity%20and%20Generalizability%20Concerns%20in%20Field%20Experiments" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -645,7 +794,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Self-Selection%20and%20Treatment%20Assignment%20in%20Field%20Experiments%20/publication/riener-schneider-wagner-2019/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Addressing%20Validity%20and%20Generalizability%20Concerns%20in%20Field%20Experiments%20/publication/riener-schneider-wagner-2019/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -658,7 +807,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/publication/riener-schneider-wagner-2019/&amp;title=Self-Selection%20and%20Treatment%20Assignment%20in%20Field%20Experiments" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/publication/riener-schneider-wagner-2019/&amp;title=Addressing%20Validity%20and%20Generalizability%20Concerns%20in%20Field%20Experiments" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -678,44 +827,50 @@
 
 
   
-  
     
-  
-  
-
-
-
-
-
-
-  
-  
-  
-  
-  <div class="media author-card content-widget-hr">
     
 
-    <div class="media-body">
-      <h5 class="card-title"><a href="/authors/gerhard-riener/"></a></h5>
-      
-      
-      <ul class="network-icon" aria-hidden="true">
+
+
+
+
   
-</ul>
-
-    </div>
-  </div>
 
 
-
-
+  
+    
+    
 
 
 
 
 
   
+
+
   
+    
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -726,11 +881,8 @@
 
     
     
-
     
-    
-    
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
@@ -739,14 +891,12 @@
 
       
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
         
       
 
-      
-      
     
 
     
@@ -756,7 +906,12 @@
 
     
     
-    <script>hljs.initHighlightingOnLoad();</script>
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
     
 
     
@@ -772,7 +927,8 @@
         'post': "Posts",
         'project': "Projects",
         'publication' : "Publications",
-        'talk' : "Talks"
+        'talk' : "Talks",
+        'slides' : "Slides"
         };
     </script>
     
@@ -809,6 +965,9 @@
 
     
     
+
+    
+    
     
     
     
@@ -821,7 +980,7 @@
     
     
     
-    <script src="/js/academic.min.d6bd04fdad2ad213aa8111c5a3b72fc5.js"></script>
+    <script src="/js/academic.min.66c553246b0f279a03be6e5597f72b52.js"></script>
 
     
 
@@ -838,7 +997,17 @@
 
   <p class="powered-by">
     
+  </p>
 
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
     <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.

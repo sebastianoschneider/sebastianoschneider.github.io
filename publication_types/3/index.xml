@@ -5,12 +5,20 @@
     <link>/publication_types/3/</link>
       <atom:link href="/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 07 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 25 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>3</title>
       <link>/publication_types/3/</link>
     </image>
+    
+    <item>
+      <title>Addressing Validity and Generalizability Concerns in Field Experiments</title>
+      <link>/publication/riener-schneider-wagner-2019/</link>
+      <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/riener-schneider-wagner-2019/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Discrimination, narratives and family history: An experiment with Jordanian host and Syrian refugee children</title>
@@ -33,14 +41,6 @@
       <link>/publication/schneider-schlather-2018/</link>
       <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
       <guid>/publication/schneider-schlather-2018/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Self-Selection and Treatment Assignment in Field Experiments</title>
-      <link>/publication/riener-schneider-wagner-2019/</link>
-      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/riener-schneider-wagner-2019/</guid>
       <description></description>
     </item>
     

@@ -5,18 +5,34 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Sebastian O. Schneider</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 07 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 25 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Sebastian O. Schneider</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Addressing Validity and Generalizability Concerns in Field Experiments</title>
+      <link>/publication/riener-schneider-wagner-2019/</link>
+      <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/riener-schneider-wagner-2019/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Discrimination, narratives and family history: An experiment with Jordanian host and Syrian refugee children</title>
       <link>/publication/barron-et-al-2020/</link>
       <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
       <guid>/publication/barron-et-al-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>minMSE: Implementation of the minMSE treatment assignment method for one or multiple treatment groups.</title>
+      <link>/publication/schneider-baldini-2019/</link>
+      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/schneider-baldini-2019/</guid>
       <description></description>
     </item>
     
@@ -29,39 +45,10 @@
     </item>
     
     <item>
-      <title>Software for Min MSE Treatment Assignment</title>
-      <link>/xsoftware/stata-ado-package/</link>
-      <pubDate>Mon, 02 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/xsoftware/stata-ado-package/</guid>
-      <description>&lt;p&gt;We provide R and Stata implementation for treatment assignment using the minMSE method as proposed by &lt;a href=&#34;/publication/schneider-schlather-2018/&#34; target=&#34;_blank&#34;&gt;Schneider and Schlather (2017)&lt;/a&gt;.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;R implementation: Get our &lt;a href=&#34;https://cran.r-project.org/package=minMSE&#34; target=&#34;_blank&#34;&gt;R package &amp;lsquo;minMSE&amp;rsquo; via CRAN&lt;/a&gt;. You can also install the package directly in R:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-R&#34;&gt;install.packages(&amp;quot;minMSE&amp;quot;)
-library(minMSE)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Need help with installing? Try &lt;a href=&#34;https://www.r-bloggers.com/how-to-install-packages-on-r-screenshots/&#34; target=&#34;_blank&#34;&gt;this very detailed tutorial&lt;/a&gt; or contact us.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Stata implementation: Fill in a quick survey and download the ado-package &lt;a href=&#34;http://minmse.sebastianschneider.eu&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
       <title>A New Approach to Treatment Assignment for One and Multiple Treatment Groups</title>
       <link>/publication/schneider-schlather-2018/</link>
       <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
       <guid>/publication/schneider-schlather-2018/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Self-Selection and Treatment Assignment in Field Experiments</title>
-      <link>/publication/riener-schneider-wagner-2019/</link>
-      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/riener-schneider-wagner-2019/</guid>
       <description></description>
     </item>
     
@@ -78,14 +65,6 @@ library(minMSE)
       <link>/publication/schneider-ibanez-riener-2019/</link>
       <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
       <guid>/publication/schneider-ibanez-riener-2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Software 01</title>
-      <link>/httpwww.google.de</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/httpwww.google.de</guid>
       <description></description>
     </item>
     
